@@ -14,6 +14,7 @@
 		49523034209D637D00111843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49523033209D637D00111843 /* Assets.xcassets */; };
 		49523037209D637D00111843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49523035209D637D00111843 /* LaunchScreen.storyboard */; };
 		4952305C209D6CFF00111843 /* RampPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4952305B209D6CFF00111843 /* RampPickerVC.swift */; };
+		49523061209D842500111843 /* ramp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49523060209D842500111843 /* ramp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		49523036209D637D00111843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49523038209D637D00111843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4952305B209D6CFF00111843 /* RampPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPickerVC.swift; sourceTree = "<group>"; };
+		49523060209D842500111843 /* ramp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ramp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		49523029209D637A00111843 /* ramp-up */ = {
 			isa = PBXGroup;
 			children = (
+				4952305F209D841700111843 /* model */,
 				4952303F209D662800111843 /* View */,
 				4952303E209D661C00111843 /* Controller */,
 				4952302A209D637A00111843 /* AppDelegate.swift */,
@@ -84,6 +87,14 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4952305F209D841700111843 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				49523060209D842500111843 /* ramp.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4952302F209D637A00111843 /* RampPlacerVC.swift in Sources */,
+				49523061209D842500111843 /* ramp.swift in Sources */,
 				4952305C209D6CFF00111843 /* RampPickerVC.swift in Sources */,
 				4952302B209D637A00111843 /* AppDelegate.swift in Sources */,
 			);
